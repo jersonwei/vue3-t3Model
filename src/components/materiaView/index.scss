@@ -1,0 +1,31 @@
+.material-view{
+    padding-top: 20px;
+  }
+  .mat-btn {
+      display: inline-block;
+      cursor: pointer;
+      margin-left: 20px;
+      font-size: 20px;
+  }
+  
+  .edit {
+    border-top: 1px solid #ccc;
+      // position: relative;
+      // &::after {
+      //     display: block;
+      //     position: absolute;
+      //     content: "";
+      //     left: 0;
+      //     right: 0;
+      //     width: 250px;
+      //     margin: auto;
+      //     top: 0;
+      //     height: 1px;
+      //     background: #f0f0f0;
+      // }
+  }
+  
+  .el-dropdown {
+      margin-bottom: 20px;
+  }
+  

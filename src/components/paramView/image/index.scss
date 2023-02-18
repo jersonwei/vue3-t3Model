@@ -1,0 +1,36 @@
+.mat-btn {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.param {
+    padding: 12px 20px;
+    .state {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        .label {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .img {
+            width: 24px;
+            height: 24px;
+            border: solid 1px #aeaeae;
+            background: #808080;
+            margin-left: 10px;
+            background-size: cover;
+            background-position: center;
+        }
+        .choose {
+            margin-left: 18px;
+            cursor: pointer;
+        }
+        .delete {
+            cursor: pointer;
+            color: #cf0000;
+            margin-left: 18px;
+        }
+    }
+}

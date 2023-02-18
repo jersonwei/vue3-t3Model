@@ -1,0 +1,46 @@
+.mat-btn {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.param {
+    padding: 12px 20px;
+    .state {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .value {
+            width: 90px;
+            flex: 1;
+            margin-left: 10px;
+            font-size: 12px;
+        }
+    }
+    .block {
+        display: flex;
+        background: #f7f7f7;
+        justify-content: center;
+        align-items: center;
+        .range {
+            flex: 1;
+            display: block;
+        }
+        .setting {
+            font-size: 20px;
+            padding: 4px;
+            cursor: pointer;
+        }
+    }
+    .config {
+        display: flex;
+        color: #e0e0e0;
+        margin-top: 8px;
+        .label{
+          font-size: 14px;
+          color: #666;
+        }
+        .row {
+            flex: 1;
+        }
+    }
+}
